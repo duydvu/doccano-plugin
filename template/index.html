@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Sample Test Project</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <nav>
+        <a href="/evaluate">Evaluate</a>
+        <a href="/download">Download</a>
+    </nav>
+    <div id="main-form">
+        <h1>Create Sample Test Project</h1>
+        <form>
+            <div>
+                <label for="projectId">
+                    <span>
+                        Project ID:
+                    </span>
+                    <input type="text" name="projectId" id="projectId">
+                </label>
+            </div>
+            <div>
+                <label for="start">
+                    <span>    
+                        Start:
+                    </span>
+                    <input type="number" name="start" id="start">
+                </label>
+            </div>
+            <div>
+                <label for="end">
+                    <span>
+                        End:
+                    </span>
+                    <input type="number" name="end" id="end">
+                </label>
+            </div>
+            <div>
+                <label for="sampleSize">
+                    <span>
+                        Sample Size:
+                    </span>
+                    <input type="number" name="sampleSize" id="sampleSize">
+                </label>
+            </div>
+            <div>
+                <label for="newProjectName">
+                    <span>
+                        New Project Name:
+                    </span>
+                    <input type="text" name="newProjectName" id="newProjectName">
+                </label>
+            </div>
+            <div>
+                <label for="username">
+                    <span>
+                        User Name:
+                    </span>
+                    <input type="text" name="username" id="username">
+                </label>
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+        <div>
+            Status: <span id="notify">Idle</span>
+        </div>
+    </div>
+    <script src="/static/index.js"></script>
+</body>
+</html>

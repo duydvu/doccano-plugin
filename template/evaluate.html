@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluate Test Project</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+        #result {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        #result td, #result th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        
+        #result tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #result tr:hover {
+            background-color: #ddd;
+        }
+
+        #result th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="/">Sample</a>
+        <a href="/download">Download</a>
+    </nav>
+    <div id="main-form">
+        <h1>Evaluate Test Project</h1>
+        <form>
+            <div>
+                <label for="projectId">
+                    <span>
+                        Project ID:
+                    </span>
+                    <input type="text" name="projectId" id="projectId">
+                </label>
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+        <div>
+            Status: <span id="notify">Idle</span>
+        </div>
+        <table id="result"></table>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/json2html/1.4.0/json2html.min.js"></script>
+    <script src="/static/evaluate.js"></script>
+</body>
+
+</html>

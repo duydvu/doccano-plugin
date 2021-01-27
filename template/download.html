@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Test Project</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="/">Sample</a>
+        <a href="/evaluate">Evaluate</a>
+    </nav>
+    <div id="main-form">
+        <h1>Download Test Project</h1>
+        <form>
+            <div>
+                <label for="projectId">
+                    <span>
+                        Project ID:
+                    </span>
+                    <input type="text" name="projectId" id="projectId">
+                </label>
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+        <div>
+            Status: <span id="notify">Idle</span>
+        </div>
+    </div>
+    <script src="/static/download.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+[
+    {
+        "id": 8,
+        "text": "bán hàng cá nhân",
+        "prefix_key": null,
+        "suffix_key": "b",
+        "background_color": "#c85c0d",
+        "text_color": "#fff"
+    },
+    {
+        "id": 9,
+        "text": "khác",
+        "prefix_key": null,
+        "suffix_key": "k",
+        "background_color": "#37847f",
+        "text_color": "#fff"
+    },
+    {
+        "id": 13,
+        "text": "quảng cáo - PR",
+        "prefix_key": null,
+        "suffix_key": "q",
+        "background_color": "#602786",
+        "text_color": "#fff"
+    },
+    {
+        "id": 14,
+        "text": "thanh lý",
+        "prefix_key": null,
+        "suffix_key": "t",
+        "background_color": "#dc449d",
+        "text_color": "#000"
+    },
+    {
+        "id": 15,
+        "text": "tin tức - chính trị - thời sự",
+        "prefix_key": "ctrl",
+        "suffix_key": "t",
+        "background_color": "#28b518",
+        "text_color": "#fff"
+    },
+    {
+        "id": 16,
+        "text": "tuyển dụng",
+        "prefix_key": "shift",
+        "suffix_key": "t",
+        "background_color": "#7bc9ff",
+        "text_color": "#000"
+    },
+    {
+        "id": 18,
+        "text": "từ thiện - tôn giáo",
+        "prefix_key": null,
+        "suffix_key": "h",
+        "background_color": "#c195b7",
+        "text_color": "#000"
+    },
+    {
+        "id": 19,
+        "text": "cá độ",
+        "prefix_key": null,
+        "suffix_key": "c",
+        "background_color": "#f00a4d",
+        "text_color": "#fff"
+    },
+    {
+        "id": 12,
+        "text": "Sim",
+        "prefix_key": "shift",
+        "suffix_key": "m",
+        "background_color": "#29a588",
+        "text_color": "#fff"
+    },
+    {
+        "id": 11,
+        "text": "mỹ phẩm",
+        "prefix_key": "ctrl",
+        "suffix_key": "m",
+        "background_color": "#e042e9",
+        "text_color": "#000"
+    },
+    {
+        "id": 17,
+        "text": "tìm người, tìm đồ vật",
+        "prefix_key": "ctrl shift",
+        "suffix_key": "t",
+        "background_color": "#c24db2",
+        "text_color": "#000"
+    },
+    {
+        "id": 10,
+        "text": "BĐS",
+        "prefix_key": null,
+        "suffix_key": "m",
+        "background_color": "#A4B310",
+        "text_color": "#000"
+    }
+]
